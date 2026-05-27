@@ -1,0 +1,16 @@
+1 - O que significa ganhar o jogo?
+ganhar o jogo significa que você acertou a combinação correta do código secreto do jogo.
+
+2 - O que significa perder o jogo?
+Perder o jogo significa que você gastou todas as suas tentativas para descobrir o código secreto do jogo e não conseguiu descobri-lo com as tentativas que lhe foram dadas.
+3 - O que torna uma tentativa válida?
+Uma tentativa se torna válida a partir do momento em que o jogador insere um código aleatório de 4 dígitos, que vão de 1 a 6, e em que nenhum dos números inseridos seja repetido.
+4 - O que torna uma tentativa inválida?
+Uma tentativa só é inválida a partir do momento em que os requisitos de conter 4 dígitos de 1 a 6 e de que nenhum dos dígitos digitados pelo jogador seja repetido não sejam atendidos. Caso esses requisitos não sejam cumpridos à risca, a tentativa é inválida.
+5 - Uma tentativa inválida deve gastar uma tentativa do jogador? Porquê?
+Não, a tentativa inválida não gasta nenhuma tentativa do jogador, pois os requisitos necessários para que ela seja contabilizada como uma tentativa não foram cumpridos.
+6 - Que informação o jogador precisa de ver depois de cada tentativa?
+Após uma tentativa, o programa mostra algumas informações, como quantos valores estão corretos e na posição certa, e quantos valores existem no código secreto, mas estão na posição errada.
+7 - Que informação o programa precisa de guardar, mesmo que não a mostre sempre?
+O programa precisa de guardar a sequência de 4 números gerados aleatoriamente entre 1 e 6, que correspondem ao código secreto que o jogador deve adivinhar. Essa informação deve ser guardada dentro de um array de quatro elementos, pois dessa forma fica mais fácil comparar os números digitados pelo utilizador índice a índice com o código secreto do jogo.
+
